@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff9ee">
+    <title>Priyanka Art &amp; Craft Gallery — Handmade in Mumbai</title>
+    <meta name="description" content="Explore the colorful art and craft designs of Priyanka Jena, a maker based in Mumbai, India. Browse handmade wall art, folk art, paper crafts, decor and keepsakes.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Priyanka Art &amp; Craft Gallery">
+    <meta property="og:description" content="Colorful handmade art and craft designs by Priyanka Jena, Mumbai, India.">
+    <meta property="og:image" content="images/jagannath-diamond-plaque.jpg">
+    <meta property="og:image:alt" content="A colorful Jagannath face plaque on patterned fabric.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="photos.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="wordmark" href="#home" aria-label="Priyanka Art and Craft Gallery home">
+          <span class="wordmark__mark" aria-hidden="true">P</span>
+          <span class="wordmark__text">Priyanka <span>Art &amp; Craft Gallery</span></span>
+        </a>
+        <nav class="primary-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="eyebrow__line" aria-hidden="true"></span> Art made by hand · Mumbai, India</p>
+          <h1 class="hero-title" id="hero-title">
+            <span class="hero-title__name">Priyanka</span>
+            <span class="hero-title__craft">Art <em>&amp;</em> Craft</span>
+            <span class="hero-title__gallery">Gallery</span>
+          </h1>
+          <p class="hero__intro">Colorful art and craft designs, made with a love for pattern, detail, and the joy of making.</p>
+          <div class="hero__actions">
+            <a class="button button--dark" href="#gallery">Explore the gallery <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#about">Meet the maker <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero__note"><span class="small-flower" aria-hidden="true">✳</span> Little details. Lots of heart.</p>
+        </div>
+        <figure class="hero-art">
+          <div class="hero-art__frame">
+            <img src="images/jagannath-diamond-plaque.jpg" alt="A colorful Jagannath face plaque photographed on patterned fabric, with a black diamond-shaped border and bright floral details." width="1281" height="1600" fetchpriority="high">
+            <span class="hero-art__stamp" aria-hidden="true">Made<br>by hand</span>
+          </div>
+          <figcaption class="hero-art__caption"><span>01</span> A little color for every corner</figcaption>
+        </figure>
+        <span class="hero__orbit hero__orbit--one" aria-hidden="true"></span>
+        <span class="hero__orbit hero__orbit--two" aria-hidden="true"></span>
+      </section>
+
+      <section class="about section-shell section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-kicker"><span>01</span> A little introduction</div>
+        <div class="about__grid">
+          <figure class="about__image-wrap">
+            <img src="images/jagannath-round-plaque-thumb.jpg" alt="Hands holding a colorful circular artwork with a devotional scene and layered floral border." width="1600" height="1294" loading="lazy" decoding="async">
+            <figcaption>Made with care, from the first layer to the last detail.</figcaption>
+            <span class="about__image-scribble" aria-hidden="true">✳</span>
+          </figure>
+          <div class="about__copy">
+            <p class="eyebrow">The maker behind the pieces</p>
+            <h2 id="about-title">Hello, I’m <span>Priyanka.</span></h2>
+            <p class="about__lead">I’m an art and craft maker based in Mumbai, India.</p>
+            <p>My gallery is a collection of handmade designs in bright colors, expressive patterns, and thoughtful little details. Each piece brings a bit of imagination into everyday spaces.</p>
+            <p class="about__signature">With warmth, <span>Priyanka Jena</span></p>
+            <a class="text-link text-link--accent" href="#gallery">See what I make <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section section-pad" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-shell">
+          <div class="gallery-heading">
+            <div>
+              <div class="section-kicker"><span>02</span> Collected with care</div>
+              <h2 id="gallery-title">The <em>gallery</em></h2>
+              <p class="section-intro">A colorful mix of wall art, folk motifs, paper projects, and handmade keepsakes.</p>
+            </div>
+            <span class="gallery-heading__flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="gallery-filters" role="group" aria-label="Filter artwork by category" id="gallery-filters"></div>
+          <p class="sr-only" id="gallery-status" aria-live="polite"></p>
+          <div class="gallery-grid" id="gallery-grid" aria-live="off"></div>
+          <p class="gallery-hint"><span aria-hidden="true">↗</span> Select any piece to view it larger</p>
+        </div>
+      </section>
+
+      <section class="process section-shell section-pad" id="process" aria-labelledby="process-title">
+        <div class="section-kicker"><span>03</span> From idea to keepsake</div>
+        <div class="process__heading">
+          <h2 id="process-title">A few thoughtful <em>steps</em></h2>
+          <p>Every project has its own rhythm. Here are a few glimpses of the ideas, folds, colors, and details found throughout the gallery.</p>
+        </div>
+        <div class="process-grid">
+          <article class="process-card process-card--offset">
+            <div class="process-card__image">
+              <img src="images/sketches-and-art-collage.jpg" alt="A collage of colorful drawings, sketches, and small art projects arranged in a grid." width="1053" height="1053" loading="lazy" decoding="async">
+              <span class="process-card__number">01</span>
+            </div>
+            <h3>Find a first shape</h3>
+            <p>Sketches, everyday scenes, and folk patterns offer a place to begin.</p>
+          </article>
+          <article class="process-card">
+            <div class="process-card__image">
+              <img src="images/folded-paper-boats.jpg" alt="A row of folded paper boats in pastel colors, each decorated with a smiling sun-like face." width="1600" height="1200" loading="lazy" decoding="async">
+              <span class="process-card__number">02</span>
+            </div>
+            <h3>Build the form</h3>
+            <p>Fold, layer, and assemble simple materials into expressive shapes.</p>
+          </article>
+          <article class="process-card process-card--offset">
+            <div class="process-card__image">
+              <img src="images/painted-folk-art-panels.jpg" alt="Three colorful folk-art panels decorated with figures, flowers, and bright borders." width="1600" height="609" loading="lazy" decoding="async">
+              <span class="process-card__number">03</span>
+            </div>
+            <h3>Bring in the color</h3>
+            <p>Bright palettes and repeated motifs give each design its own character.</p>
+          </article>
+          <article class="process-card">
+            <div class="process-card__image">
+              <img src="images/colorful-diya-cups.jpg" alt="A group of small handmade diya cups in vivid pink, orange, green, and blue." width="1600" height="842" loading="lazy" decoding="async">
+              <span class="process-card__number">04</span>
+            </div>
+            <h3>Add the finishing details</h3>
+            <p>Small final touches turn a handmade piece into a keepsake or display.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card section-shell">
+          <div class="contact-card__ornament" aria-hidden="true">✳</div>
+          <p class="eyebrow">Let’s make something meaningful</p>
+          <h2 id="contact-title">Have a piece in <em>mind?</em></h2>
+          <p class="contact-card__intro">For a gift, a special corner at home, or simply to say hello, start a note and tell me what you’re imagining.</p>
+          <a class="button button--light" href="mailto:?subject=Enquiry%20about%20a%20Priyanka%20Art%20%26%20Craft%20piece">Enquire about a piece <span aria-hidden="true">↗</span></a>
+          <p class="contact-card__location"><span aria-hidden="true">⌖</span> Mumbai, India</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner section-shell">
+        <a class="footer-brand" href="#home">Priyanka <span>Art &amp; Craft Gallery</span></a>
+        <p>Handmade with heart in Mumbai, India.</p>
+        <a class="footer-top" href="#home">Back to top <span aria-hidden="true">↑</span></a>
+        <small>© <span id="current-year">2026</span> Priyanka Jena</small>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Artwork viewer">
+      <div class="lightbox__panel">
+        <button class="lightbox__close" type="button" aria-label="Close enlarged image">×</button>
+        <button class="lightbox__arrow lightbox__arrow--prev" type="button" aria-label="Previous artwork">‹</button>
+        <figure class="lightbox__figure">
+          <img id="lightbox-image" src="" alt="" width="1200" height="900">
+          <figcaption class="lightbox__caption">
+            <span id="lightbox-title"></span>
+            <span id="lightbox-count"></span>
+          </figcaption>
+        </figure>
+        <button class="lightbox__arrow lightbox__arrow--next" type="button" aria-label="Next artwork">›</button>
+      </div>
+    </dialog>
+  </body>
+</html>
+
