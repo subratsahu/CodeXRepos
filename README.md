@@ -24,7 +24,7 @@ Available group IDs are `decor`, `devotional`, `paper`, and `keepsakes`. The fir
 
 Edit headings and the maker bio directly in `index.html`. The current bright sunny-studio palette and font choices are in the `:root` variables in the **Bright sunny studio theme** section near the bottom of `styles.css`. Google Fonts are loaded from Fraunces and Manrope; system font fallbacks are included.
 
-The enquiry button currently opens a prefilled email draft without a recipient because no email address was supplied. When you have an address, edit its `mailto:` link in `index.html`, for example `mailto:hello@example.com?subject=Enquiry`. Add social links in the contact section or footer when you have the profile URLs.
+The enquiry button opens a prefilled email draft to `psworldhub@gmail.com`. Update the `mailto:` links in `index.html` if the contact address changes. Add social links in the contact section or footer when you have the profile URLs.
 
 ## Open locally
 
@@ -42,4 +42,3 @@ Double-click `index.html` or open it in a browser. All page assets use relative 
 ### Netlify
 
 Drag this project folder into Netlify's manual deploy area, or connect the GitHub repository. No build command or publish subdirectory is needed; the site entry point is `index.html` at the project root.
-

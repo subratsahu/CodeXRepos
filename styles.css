@@ -200,6 +200,8 @@ h2 em { color: var(--accent); font-weight: 500; }
 .contact-card h2 em { color: #d7c195; }
 .contact-card__intro { position: relative; z-index: 1; max-width: 32rem; margin-bottom: 1.7rem; color: #e1e8df; font-size: .94rem; }
 .contact-card .button { position: relative; z-index: 1; }
+.contact-card__email { position: relative; z-index: 1; margin-top: 1rem; color: #302738; font-size: .85rem; font-weight: 700; text-underline-offset: .2em; }
+.contact-card__email:hover { color: #145f61; }
 .contact-card__location { position: relative; z-index: 1; margin: 1.3rem 0 0; color: #d9e2da; font-size: .77rem; }
 .contact-card__location span { margin-right: .35rem; color: #d7c195; }
 
